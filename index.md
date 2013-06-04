@@ -3,6 +3,11 @@ layout: default
 title: ==============  Blog of cuihoo  ===============
 ---
 # {{ page.title }}
+
+{％ for category in site.categories ％}
+<li><a href="/｛｛ category | first ｝｝.html">｛｛ category | first ｝｝(｛｛ category | last | size ｝｝)</a></li>
+{％ endfor ％}
+
 ## 萨満旅程
 
 {% for post in site.cotegories.shaman %}
