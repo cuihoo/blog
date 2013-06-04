@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog of cuihoo
+title: ==============  Blog of cuihoo  ===============
 ---
 # {{ page.title }}
 ## 萨満旅程
