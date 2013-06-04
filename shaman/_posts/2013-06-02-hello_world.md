@@ -1,6 +1,7 @@
 ---
 layout: default  
 title: Hello World  
+category: shaman
 ---
 
 # {{ page.title }}

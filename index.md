@@ -6,7 +6,7 @@ title: ==============  Blog of cuihoo  ===============
 ## 萨満旅程
 
 {% for post in site.cotegories.shaman %}
-- {{ post.date | date_to_string }} [{{ post.title }}]({{ site.baseurl }}{{ post.url }})  
+- {{ post.date | date_to_string }} [{{ post.title }}]({{ site.baseurl }}/shaman/{{ post.url }})  
 {% endfor %}
 
 ## 恶魔学识
