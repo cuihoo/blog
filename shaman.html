@@ -1,0 +1,3 @@
+---
+layout: default
+name: shaman
